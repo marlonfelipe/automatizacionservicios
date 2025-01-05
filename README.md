@@ -16,11 +16,12 @@ URL Base
 
 https://reqres.in
 Endpoints Implementados
-Método	URI	Descripción
-GET	/api/users?page=2	Listar usuarios.
-POST	/api/users	Registrar un nuevo usuario.
-PUT	/api/users/2	Actualizar información de un usuario.
-DELETE	/api/users/2	Eliminar un usuario.
+Método	            URI	                        Descripción
+GET	                /api/users?page=2	        Listar usuarios.
+POST	            /api/users	                Registrar un nuevo usuario.
+PUT	                /api/users/2	            Actualizar información de un usuario.
+DELETE	            /api/users/2	            Eliminar un usuario.
+
 Funciones Automatizadas
 
     GET: Validar que la respuesta contenga al menos un usuario.
@@ -29,12 +30,14 @@ Funciones Automatizadas
     DELETE: Eliminar un usuario y verificar la operación.
 
 Tecnologías Utilizadas
-Tecnología	Versión
-Java	OpenJDK 17.0.13
-Gradle	8.4
-Frameworks	Serenity-Rest, Cucumber, Gherkin, JUnit
-Diseño	Screenplay
-IDE	IntelliJ IDEA Community Edition 2024.3
+Tecnología	        Versión
+Java	            OpenJDK 17.0.13
+Gradle	            8.4
+Frameworks	        Serenity-Rest, Cucumber, Gherkin, JUnit
+Diseño	            Screenplay
+IDE	                IntelliJ IDEA Community Edition 2024.3
+
+
 Pasos para la Ejecución
 Opción 1: Ejecución desde la Consola
 
